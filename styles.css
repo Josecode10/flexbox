@@ -1,1 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+:root {
+    --Yellow: #FFFF00;
+    --Blue: #0000FF;
+    --Red: #FF0000;
+}
+
+body {
+    padding: 30px;
+}
+
+.main {
+    width: 1100px;
+    height: 600px;
+    border: 1px solid #000;
+    background-color: var(--Blue);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+}
+
+.main__caja {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: var(--Red);
+}
